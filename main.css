@@ -9,7 +9,7 @@ table {
 
 th, td {
     border: 1px solid #ddd;
-    padding: 2em; 
+    padding: 1em; 
     text-align: center;
     font-size: 12px;
 }
@@ -18,8 +18,17 @@ th {
     background-color: #f2f2f2;
 }
 
-tbody tr:nth-child(odd) td:not(:first-child) {
+tbody tr:nth-child(odd){
     background-color: #e6f7ff; 
+}
+
+.hour-cell {
+    text-align: center;
+}
+
+.time-span {
+    font-size: 10px;
+    display: block;
 }
 
 
