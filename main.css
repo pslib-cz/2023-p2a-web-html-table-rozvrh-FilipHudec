@@ -1,50 +1,55 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #cfe2f3;
     margin: 0;
     padding: 0;
+    color: #204060;
+}
+
+.container__table {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin-top: 20px;
 }
 
 table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 50px 5px 50px rgba(32, 64, 96, 0.1);
+    background-color: #f0f5fa;
+    overflow: hidden;
 }
 
 th, td {
-    border: 1px solid #ddd;
-    padding: 12px;
+    border: 1px solid #204060;
+    padding: 16px;
     text-align: center;
 }
 
 th {
-    background-color: #3498db;
+    background-color: #2c5078;
     color: #fff;
 }
 
 td {
-    background-color: #ecf0f1;
+    background-color: #d1e5f0;
 }
 
 .caption {
     margin-top: 10px;
     font-style: italic;
-    color: #777;
+    color: #204060;
 }
 
 .hour-cell {
     font-weight: bold;
-    color: #2c3e50;
+    color: #f0f5fa;
 }
 
 .time-span {
     display: block;
     font-size: 12px;
-    color: #7f8c8d;
+    color: #f0f5fa;
 }
 
 /* Zvýrazněte časový rozsah */
@@ -52,5 +57,6 @@ th div,
 td div {
     font-size: 14px;
     font-weight: bold;
-    color: #2c3e50;
+    color: #1b3b5e;
 }
+
