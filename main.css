@@ -52,11 +52,17 @@ td {
     color: #f0f5fa;
 }
 
+.teacher-name {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: #204060;
+}
+
 /* Zvýrazněte časový rozsah */
 th div,
 td div {
     font-size: 14px;
-    font-weight: bold;
     color: #1b3b5e;
 }
 
