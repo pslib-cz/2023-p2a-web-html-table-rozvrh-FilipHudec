@@ -15,7 +15,6 @@ table {
     width: 80%;
     border-collapse: collapse;
     background-color: #f0f5fa;      
-    box-shadow: 5px 50px 50px rgba(32, 64, 96, 0.1);
 }
 
 th, td {
@@ -58,5 +57,8 @@ th div,
 td div {
     font-size: 14px;
     color: #1b3b5e;
+    
 }
+
+
 
