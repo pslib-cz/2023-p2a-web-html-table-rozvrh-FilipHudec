@@ -16,13 +16,12 @@ table {
     width: 80%;
     border-collapse: collapse;
     box-shadow: 50px 5px 50px rgba(32, 64, 96, 0.1);
-    background-color: #f0f5fa;
-    overflow: hidden;
+    background-color: #f0f5fa;      
 }
 
 th, td {
     border: 1px solid #204060;
-    padding: 16px;
+    padding: 13px;
     text-align: center;
 }
 
