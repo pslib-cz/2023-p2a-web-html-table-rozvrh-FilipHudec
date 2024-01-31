@@ -9,18 +9,18 @@ body {
 .container__table {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.5em;
 }
 
 table {
-    width: 80%;
+    width: 75%;
     border-collapse: collapse;
-    background-color: #f0f5fa;      
+    background-color: #f0f5fa;    
 }
 
 th, td {
     border: 2px solid #204060;
-    padding: 13px;
+    padding: 0.5em;
     text-align: center;
 }
 
@@ -36,7 +36,6 @@ td {
 
 .caption {
     margin-top: 10px;
-    font-style: italic;
     color: #204060;
 }
 
@@ -54,12 +53,6 @@ td {
 }
 
 
-th div,
-td div {
-    font-size: 14px;
-    color: #1b3b5e;
-    
-}
 
 
 
