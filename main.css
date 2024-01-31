@@ -15,7 +15,6 @@ body {
 table {
     width: 80%;
     border-collapse: collapse;
-    box-shadow: 5px 5px 50px rgba(32, 64, 96, 0.1);
     background-color: #f0f5fa;      
 }
 
@@ -24,6 +23,7 @@ th, td {
     padding: 13px;
     text-align: center;
 }
+
 
 th {
     background-color: #2c5078;
@@ -38,11 +38,6 @@ td {
     margin-top: 10px;
     font-style: italic;
     color: #204060;
-}
-
-.hour-cell {
-    font-weight: bold;
-    color: #f0f5fa;
 }
 
 .time-span {
