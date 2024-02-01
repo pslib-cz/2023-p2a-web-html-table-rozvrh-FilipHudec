@@ -8,7 +8,7 @@ body {
 
 .container__table {
     display: table;
-    margin-top: 1.5em;
+    margin: 5px 0px 0px 10px;
 }
 
 table {
@@ -30,7 +30,6 @@ th {
 td {
     background-color: #d1e5f0;
     font-size: 1.2em;
-    min-width: 100px;
 }
 
 .caption {
