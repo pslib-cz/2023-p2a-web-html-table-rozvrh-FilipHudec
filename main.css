@@ -7,8 +7,7 @@ body {
 }
 
 .container__table {
-    display: flex;
-    justify-content: center;
+    display: table;
     margin-top: 1.5em;
     overflow-x: auto; 
 }
@@ -33,6 +32,7 @@ th {
 td {
     background-color: #d1e5f0;
     font-size: 1.2em;
+    min-width: 100px;
 }
 
 .caption {
