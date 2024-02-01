@@ -9,11 +9,9 @@ body {
 .container__table {
     display: table;
     margin-top: 1.5em;
-    overflow-x: auto; 
 }
 
 table {
-    width: 75%;
     border-collapse: collapse;
     background-color: #f0f5fa;    
 }
